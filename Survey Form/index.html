@@ -14,7 +14,7 @@
             margin: auto;
             line-height: 1.5em;
             border: 1px solid black;
-            text-align : center; 
+            /* text-align : center;  */
         }
         input{
             line-height: 1.5em;
@@ -33,6 +33,7 @@
             <p>How are you enjoying learning how to code</p>
         </header>
         <form action="">
+          
             <div class="titleclass">Full Name</div>
             <input type="text" name="fullName" id="fullName">
             <div class="titleclass">Email</div>
@@ -40,6 +41,7 @@
             <div class="titleclass">Current Occupation <small>(Optional)</small></div>
             <input type="text" name="CurOccupation" id="CurOccupation">
             <div class="titleclass">Intended Role</div>
+
             <select  name="newRole" id="newRole">
                 <option value="Frontend">Frontend Developer</option>
                 <option value="Backend">Backend Developer</option>
@@ -49,8 +51,17 @@
                 <option value="System">System Administrator</option>
                 <option value="PM">Project Manager</option>
             </select>
-            <div class="titleclass">Comments</div>
+
+            <div class="titleclass">
+              <label for="">radio</label>
+              <input type="radio" value="">
+            </div>
+            
+            <div class="titleclass">Comments </div>
             <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="titleclass">
+              <button type="submit">Submit</button>
+            </div>
         </form>
     </div>
 </body>
