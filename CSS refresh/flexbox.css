@@ -1,0 +1,224 @@
+/* Base Layout */
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+  body {
+      line-height: 1.25;
+      font-family: 'Ubuntu',Arial,Helvetica !important;
+      font-size: 14px;
+      background-color: whitesmoke;
+      
+  }
+
+ 
+  .container{
+    width: 60%;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(174, 174, 174);
+    background-color: white;
+  }
+  
+  .head{
+    background-color: rgba(245, 245, 245, 0.493);
+    display: flex;
+    flex-direction: row;
+
+  } 
+
+  .showcase{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar{
+      background-color: #ececec;
+    } */
+
+/* layout */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+ /* Moblie Layout */
+  /* ----------- */
+*{
+  box-sizing: border-box;
+}
+  body {
+      line-height: 1.25;
+      font-family: 'Ubuntu',Arial,Helvetica !important;
+      font-size: 14px;
+      background-color: whitesmoke;
+  }
+
+ 
+  .container{
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(174, 174, 174);
+    background-color: white;
+  }
+  .doc{
+    width: 95%;
+    margin: auto;
+  }
+  .content{
+    width: 80%;
+  
+  }
+  .showcase{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    align-items: center;
+  }
+
+  .sidebar{
+    width: auto;
+    background-color: #ececec;
+    margin-left: 1em;
+    padding: .5em;
+  }
+
+
+  /* ----------- */
+  /* Moblie Layout */
+  @media (min-width :50em){
+    
+*{
+  box-sizing: border-box;
+}
+  body {
+      line-height: 1.25;
+      font-family: 'Ubuntu',Arial,Helvetica !important;
+      font-size: 14px;
+      background-color: whitesmoke;
+  }
+
+
+  .container{
+    width: 52%;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(174, 174, 174);
+    background-color: white;
+  }
+  .doc{
+    width: 95%;
+    margin: auto;
+  }
+  .content{
+    width: 80%;
+  
+  }
+  .showcase{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+    align-items: normal;
+  }
+
+  .sidebar{
+    background-color: #ececec;
+    margin-left: 1em;
+    padding: .5em;
+  }
+  }
+  /* layout */
+
+  /* heading */
+  .head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3%;
+    background: linear-gradient(to right, #013a74, #003264, #002D59);
+    color: whitesmoke;
+    font-weight: bold;
+    
+  } 
+  .image{
+    max-width: 100%;
+    box-shadow: 0 0 10px #000000;
+    padding: 1px;
+    margin: 1em;
+    /* height: 35vh; */
+  }
+  .intro{
+    margin: 1em;
+  }
+  .name{
+    font-size: 1.5em;
+    margin:0%
+  }
+  .intro h3{
+    font-size: 1.1em;
+    /* margin-top: 3%; */
+    margin: 2% 0%;
+    font-weight: 500;
+  }
+  .tdcla{
+    width: 100%;
+  }
+  td{
+    font-size: .7rem;
+    padding : 2px 4px;
+  }
+  span{
+    display: inline-block;
+    padding : 2px 4px;
+    background: #004282;
+    width: 100%;
+  }
+  .contact-info{
+    padding-left: .5em;
+  }
+ /* heading */
+ /* SideBar */
+ .sections{
+    background-color: #dfdfdf;
+    font-size: small;
+  }
+  ul{
+    margin: 1em;
+    padding: 0px 0px 0px 10px;
+    font-size: .831rem;
+  }
+  .sb li{
+    font-size: x-small;
+    line-height: 1.7;
+  }
+  .sb h2{
+    padding: .3em .6em;
+  }
+  .sb h3{
+    font-size: small;
+    margin: 0;
+  }
+/* SideBar */
+/* Main area */
+.content li{
+  font-size:.7rem;;
+  line-height: 1.3;
+  font-weight: lighter;
+}
+.dates{
+  margin: 0%;
+  display: flex;
+  justify-content: end;
+  font-style: italic;
+  color: #585858;
+  font-size: .7rem;
+}
+p{
+  font-size: .7rem;
+}
+.content h3{
+  font-size:medium;
+  margin: 0%;
+}
+.content h4{
+  font-weight:normal;
+  margin: 0%;
+}
+/* Main area */
