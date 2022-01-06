@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from "react-dom"
 import SeasonDisplay from './SeasonDisplay'
+import Spinner from './Spinner'
 
 // this.setState({errorMessage:err.message})
 // console.log(err)
@@ -35,12 +36,10 @@ import SeasonDisplay from './SeasonDisplay'
       );
     }
 
-      return (
-        <div>
-          loading!!!
-        </div> );
+      return (<Spinner message="Please accept location request"/>);
   }
 }
 
 
 ReactDOM.render (<App />, document.getElementById("root"))
+
